@@ -178,27 +178,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
 }
-
-.intro{
-  display:flex;
-
-}
-
-.typing{
-  position:relative;
-  margin-left:10px;
-  color: rgb(8, 255, 123);
-
-}
-
-.typing::after{
-  content:"";
-  position:absolute;
-  width: 1px;
-  height: 5%;
-  border-right: 2px solid white;
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
