@@ -153,6 +153,16 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.9);
 }
 
+#header.header-top .btn{
+  display:none;
+
+}
+
+#btn{
+  margin-top: -10%;
+  margin-left: 75%;
+}
+
 
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -175,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header{
-    margin-top: 30%;
+    margin-top: 40%;
     text-align: center;
   }
   #header.header-top {
@@ -188,6 +198,35 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto;
     margin-right:auto;
   }
+  #button{
+    margin-top:12%;
+  }
+
+  #btn{
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+  }
+}
+
+.btn{
+  background-color:rgb(24,210,110);
+  margin-top:3%;
+  
+}
+
+.btn a:hover{
+  color:white;
+
+
+
+}
+
+.btn a{
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -770,6 +809,10 @@ section .container {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
+  .portfolio-details img{
+    width: 100%;
+  }
+
 }
 
 .portfolio-details .swiper-pagination {
