@@ -1058,3 +1058,10 @@ section .container {
 .highlight {
 	color: rgb(22, 190, 100);
 }
+
+@media (max-width: 500px) {
+	.the-video {
+		height: 300px;
+		width: 300px;
+	}
+}
